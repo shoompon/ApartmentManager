@@ -144,25 +144,61 @@
                     <div class="col-lg-12ห">
                       <h1 class="page-header">เตรียมบิล <small><font color="#777777"></font></small></h1>
                       <div>
-                      	<table height="600">
                         
-                        
-                        </table>
-                      
-                      
+							<table class="table table-hover">
+							<thead>
+								<tr>
+									<th class="col-md-2 text-center">ห้อง</th>
+									<th>ชื่อ</th>
+									<th>นามสกุล</th>
+									<th class="col-md-2 text-center">พิมพ์ใบแจ้งหนี้</th>
+									<th class="col-md-2 text-center">พิมพ์ใบเสร็จ</th>
+									<th class="col-md-2 ">สถานะ</th>
+								</tr>
+							</thead>
+						<tbody>
+							<tr>
+								<td class="text-center">401</td>
+								<td>พงพันธ์</td>
+								<td>ใจดี</td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td><font color="green"><b>จ่ายแล้ว</b></font></td>
+							</tr>
+							<tr>
+								<td class="text-center">402</td>
+								<td>ศิริพร</td>
+								<td>น้ำใจงาม</td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td><font color="red"><b>ค้างชำระ</b></font></td>
+							</tr>
+							<tr>
+								<td class="text-center">403</td>
+								<td>สุดา</td>
+								<td>จริงใจ</td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td><font color="red"><b>ค้างชำระ</b></font></td>
+							</tr>
+							<tr>
+								<td class="text-center">404</td>
+								<td>พรเพชร</td>
+								<td>รุ่งเรื่อง</td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td><font color="green"><b>จ่ายแล้ว</b></font></td>
+							</tr>
+							<tr>
+								<td class="text-center">405</td>
+								<td>ต้นกล้า</td>
+								<td>งามเลิศ</td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td class="text-center"><img src="image/printer.png" width="24" height="24"></td>
+								<td><font color="red"><b>ค้างชำระ</b></font></td>
+							</tr>
+						</table>
                       </div> 
-						
-						
-
-						<!-- Display Table Room Available -->
-						<!-- ----------------------------------------------------- -->
-						<div class="container-fluid">
-							<form class="form-horizontal" role="form">
-								<button type="button" class="btn btn-primary btn-md ">ยกเลิก</button>
-								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์</button>
-							</form>
-						</div>
-						
                     </div>
                 </div>
 
