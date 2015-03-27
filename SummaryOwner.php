@@ -119,7 +119,7 @@
 						</ul>
                     </li>
 					                  
-					<li>
+					<li class="active">
                         <a href="javascript:;" data-toggle="collapse" data-target="#idPrintSummaryReport"><i class="fa fa-fw fa-table"></i> ออกรายงานสรุป <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idPrintSummaryReport" class="collapse">
                             <li>

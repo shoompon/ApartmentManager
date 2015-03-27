@@ -267,7 +267,7 @@
 						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="" class="btn btn-danger btn-md" role="button">ก่อนหน้า</a></td>
+								<td><a href="checkout.php" class="btn btn-danger btn-md" role="button">ก่อนหน้า</a></td>
 								<button type="button" class="btn btn-primary btn-md pull-right">ย้ายออก</button>
 								<button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button>
 								<button type="button" class="btn btn-primary btn-md pull-right" >พิมพ์ใบเสร็จ</button> 

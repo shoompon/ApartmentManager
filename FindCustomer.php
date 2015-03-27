@@ -88,13 +88,13 @@
                         <a href="checkin.php"><i class="fa fa-fw fa-plus-square"></i> ย้ายเข้า</a>
                     </li>
 					
-					<li>
+					<li class="active">
                         <a href="javascript:;" data-toggle="collapse" data-target="#idCustomerManagement"><i class="fa fa-fw fa-pencil-square"></i> ระบบจัดการลูกค้า <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idCustomerManagement" class="collapse">
                             <li>
                                 <a href="addCustomer.php"><i class="fa fa-fw fa-edit"></i>เพิ่มข้อมูลลูกค้า</a>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="FindCustomer.php"><i class="fa fa-fw fa-edit"></i> แก้ไขข้อมูลลูกค้า</a>
                             </li>
                         </ul>
@@ -153,7 +153,7 @@
 									<td>
 										<div class="form-inline">
 												<input type="password" class="form-control" id="pwd" placeholder="ใส่ชื่อลูกค้า">
-												<button type="button-inline" class="btn btn-default btn-md">ค้นหา</button>
+												<button type="button-inline" class="btn btn-primary btn-md">ค้นหา</button>
 										</div>
 									</td>
 								</tr>
@@ -162,16 +162,16 @@
 						
 						<!-- Display Table Room Available -->
 						<!-- ----------------------------------------------------- -->
-						<div class="container">
+						<div class="container col-sm-8">
 							<h2>รายละเอียดลูกค้า</h2>
 								<table class="table table-hover">
 									<thead>
 										<tr>
-											<th class="col-md-1 text-center">ลำดับที่</th>
-											<th class="col-md-1">คำนำหน้า</th>
-											<th class="col-md-2">ชื่อ</th>
-											<th class="col-md-2">สกุล</th>
-											<th class="col-md-1">แก้ไข</th>
+											<th class="col-sm-1 text-center">ลำดับที่</th>
+											<th class="col-sm-1">คำนำหน้า</th>
+											<th class="col-sm-2">ชื่อ</th>
+											<th class="col-sm-2">สกุล</th>
+											<th class="col-sm-1">แก้ไข</th>
 										</tr>
 									</thead>
 								<tbody>

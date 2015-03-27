@@ -329,9 +329,17 @@
 						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="booking_02.php" class="btn btn-danger btn-md" role="button">ย้อนกลับ</a></td>
-								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบจอง</button>
-								<button type="button" class="btn btn-primary btn-md pull-right">ยืนยันการจอง</button>
+								<div> 
+									<a href="booking_02.php" class="btn btn-danger btn-md col-sm-1">ย้อนกลับ</a>
+								</div> 
+								
+								<div class= "col-sm-2 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบจอง</button>
+								</div> 
+								
+								<div class= "col-sm-1 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">ยืนยันการจอง</button>
+								</div> 
 								
 							</form>
 						</div>

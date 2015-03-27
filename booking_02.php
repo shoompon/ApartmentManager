@@ -158,37 +158,32 @@
                         <br></br>
 						<!--  -->
 						
-						
-                        <div>
-							<table>
-							
-								<tr>
-									<td align = "right">
-										<label for="BookingCodeInput">ค้นหาจากชื่อลูกค้า: &nbsp;</label>
-									</td>
-									<td>
-										<div class="form-inline">
-												<input type="password" class="form-control" id="pwd" placeholder="ใส่ชื่อลูกค้า">
-												<button type="button-inline" class="btn btn-default btn-md">ค้นหา</button>
-												<button type="button-inline" class="btn btn-default btn-md">เพิ่มลูกค้าใหม่</button>
-										</div>
-									</td>
-								</tr>
-                            </table>
-                        </div>
+						<div class="container">
+							<div class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-3">
+										<input type="password" class="form-control" id="pwd" placeholder="ใส่ชื่อลูกค้า">
+									</div>
+									<button type="button-inline" class="btn btn-success btn-md">ค้นหา</button>
+									<button type="button-inline" class="btn btn-primary btn-md">เพิ่มลูกค้าใหม่</button>
+								</div>
+							</div>
+						</div>
 						
 						<!-- Display Table Room Available -->
 						<!-- ----------------------------------------------------- -->
 						<div class="container">
+						<div class="col-lg-6">
 							<h2>รายละเอียดลูกค้า</h2>
+								<div class="table-responsive">
 								<table class="table table-hover">
 									<thead>
 										<tr>
-											<th class="col-md-1 text-center">ลำดับที่</th>
-											<th class="col-md-1">คำนำหน้า</th>
-											<th class="col-md-2">ชื่อ</th>
-											<th class="col-md-2">สกุล</th>
-											<th class="text">วันที่เข้าพัก</th>
+											<th class="col-sm-1 text-center">ลำดับที่</th>
+											<th class="col-sm-1">คำนำหน้า</th>
+											<th class="col-sm-1">ชื่อ</th>
+											<th class="col-sm-1">สกุล</th>
+											<th class="text col-sm-1">วันที่เข้าพัก</th>
 										</tr>
 									</thead>
 								<tbody>
@@ -222,6 +217,8 @@
 									</tr>
 								</tbody>
 							</table>
+							</div>
+						</div>
 						</div>
 						
 						

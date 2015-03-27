@@ -167,7 +167,7 @@
 											<label> คำนำหน้า:&nbsp; </label>
 										</td>
 										<td>
-											<select name="คำนำหน้า" [multiple]>
+											<select class="form-control col-sm-1" name="คำนำหน้า" [multiple]>
 												<option value="นาย" [selected]> นาย </option>
 												<option value="นาง" > นาง </option>
 												<option value="นางสาว" > นางสาว </option>
@@ -185,12 +185,12 @@
 											<label for="name"> ชื่อ: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="name">
+											<input type="text" class="form-control" name="name">
 										<td align = "right">
 											<label>&nbsp; สกุล: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="surname" >
+											<input type="text" class="form-control" name="surname" >
 										</td>
 									</tr>
 									
@@ -199,7 +199,7 @@
 											<label>&nbsp; เลขที่บัตร: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="id" >
+											<input type="text" class="form-control" name="id" >
 										</td>
 									</tr>
 									
@@ -208,12 +208,12 @@
 											<label for="name"> เลขที่: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											<input type="text" class="form-control" name="">
 										 <td align = "right">
 											<label>&nbsp; หมู่ที่: &nbsp;</label>
 										 </td>
 										 <td>
-											<input type="text" name="" >
+											<input type="text" class="form-control" name="" >
 										 </td>
 									</tr>
 									
@@ -222,12 +222,12 @@
 											<label for="name"> ซอย: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											<input type="text" class="form-control" name="">
 										 <td align = "right">
 											<label>&nbsp; ถนน: &nbsp;</label>
 										 </td>
 										 <td>
-											<input type="text" name="" >
+											<input type="text" class="form-control" name="" >
 										 </td>
 									</tr>
 									
@@ -237,12 +237,12 @@
 											<label for="name"> ตำบล: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											<input type="text" class="form-control" name="">
 										 <td align = "right">
 											<label>&nbsp; อำเภอ: &nbsp;</label>
 										 </td>
 										 <td>
-													<input type="text" name="" >
+													<input type="text" class="form-control" name="" >
 										 </td>
 									</tr>
 									
@@ -252,12 +252,12 @@
 											<label for="name"> จังหวัด: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											<input type="text" class="form-control" name="">
 										 <td align = "right">
 											<label>รหัสปรษณีย์: &nbsp;</label>
 										 </td>
 										 <td>
-											<input type="text" name="" >
+											<input type="text" class="form-control" name="" >
 										 </td>
 									</tr>
 									
@@ -266,7 +266,7 @@
 											<label>&nbsp; โทร: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="id">                                            
+											<input type="text" class="form-control" name="id">                                            
 										</td>
 									</tr>
 									
@@ -278,15 +278,15 @@
 								<table>
 									<tr>
 										<td align="right"><label for="name"> ชื่อ-สกุล: &nbsp;</label></td>
-										<td><input type="text" name=""></td>
+										<td><input type="text" class="form-control" name=""></td>
 									</tr>
 									<tr>
 										<td align="right"><label for="name"> เกี่ยวข้องเป็น: &nbsp;</label></td>
-										<td><input type="text" name=""></td>
+										<td><input type="text" class="form-control" name=""></td>
 									</tr>
 									<tr>
 										<td align="right"><label for="name"> โทร: &nbsp;</label></td>
-										<td><input type="text" name=""></td>
+										<td><input type="text" class="form-control" name=""></td>
 									</tr>
 								</table>
 							</div>

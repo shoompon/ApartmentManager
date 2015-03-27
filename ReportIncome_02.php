@@ -62,55 +62,61 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <!-- <li class="active">
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> จองห้องพัก</a>
-                    </li> -->
-					<li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-search"></i> ค้นหาห้องว่าง</a>
+                    <!-- <li class="active"> -->
+                    <li>
+                        <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="FindAvailableRoom.php"><i class="fa fa-fw fa-search"></i> ค้นหาห้องว่าง</a>
                     </li>
 					
 					<li>
-                        <a href="tables.html"><i class="fa fa-fw fa-calendar"></i> จองห้องพัก</a>
+                        <a href="booking.php"><i class="fa fa-fw fa-calendar"></i> จองห้องพัก</a>
                     </li>
 					
 					<li>
-                        <a href="tables.html"><i class="fa fa-fw fa-plus-square"></i> ย้ายเข้า</a>
+                        <a href="checkin.php"><i class="fa fa-fw fa-plus-square"></i> ย้ายเข้า</a>
                     </li>
 					
 					<li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#idCustomerManagement"><i class="fa fa-fw fa-pencil-square"></i> ระบบจัดการลูกค้า <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idCustomerManagement" class="collapse">
                             <li>
-                                <a href="#">เพิ่มข้อมูลลูกค้า</a>
+                                <a href="addCustomer.php"><i class="fa fa-fw fa-edit"></i>เพิ่มข้อมูลลูกค้า</a>
                             </li>
-                            <li> <a href="#">แก้ไข/ลบข้อมูลลูกค้า</a> </li>
-                         </ul>
+                            <li>
+                                <a href="FindCustomer.php"><i class="fa fa-fw fa-edit"></i> แก้ไขข้อมูลลูกค้า</a>
+                            </li>
+                        </ul>
                     </li>
 					
 					<li>
-                        <a href="tables.html"><i class="fa fa-fw fa-remove"></i> ย้ายออก</a>
+                        <a href="checkout.php"><i class="fa fa-fw fa-remove"></i> ย้ายออก</a>
                     </li>
 					
-                    <li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-eur"></i> บันทึกรายรับของหอพัก</a>
+					<li class="active">
+                        <a href="javascript:;" data-toggle="collapse" data-target="#idPaymentManagement"><i class="fa fa-fw fa-eur"></i> จัดการการเงิน <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="idPaymentManagement" class="collapse">
+                            <li>
+								<a href="ReportIncome.php"><i class="fa fa-fw fa-eur"></i> บันทึกรายรับของหอพัก</a>
+							</li>
+							<li>
+								<a href="ReportOwner.php"><i class="fa fa-fw fa-eur"></i> บันทึกรายจ่ายของหอพัก</a>
+							</li>
+							<li>
+								<a href="PrepareBill.php"><i class="fa fa-fw fa-print"></i> เตรียมบิล</a>
+							</li>	
+						</ul>
                     </li>
+					                  
 					<li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-eur"></i> บันทึกรายจ่ายของหอพัก</a>
-                    </li>
-					<li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-print"></i> พิมพ์ใบแจ้งหนี้รายเดือน</a>
-                    </li>
-					<li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-print"></i> พิมพ์ใบเสร็จรายเดือน</a>
-                    </li>
-					<li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#idPrintSummaryReport"><i class="fa fa-fw fa-print"></i> ออกรายงานสรุป <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#idPrintSummaryReport"><i class="fa fa-fw fa-table"></i> ออกรายงานสรุป <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idPrintSummaryReport" class="collapse">
                             <li>
-                                <a href="#">รายงานรายรับ</a>
+                                <a href="SummaryIncome.php"><i class="fa fa-fw fa-print"></i> รายงานรายรับ</a>
                             </li>
                             <li>
-                                <a href="#">รายงานการเข้าพักและการจอง</a>
+                                <a href="SummaryOwner.php"><i class="fa fa-fw fa-print"></i> รายงานการเข้าพัก</a>
                             </li>
                         </ul>
                     </li>
@@ -126,7 +132,7 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
-                      <h1 class="page-header">บันทึกรายจ่ายของหอพัก: <small><font color="#777777">บันทึกค่าใช้จ่าย ห้อง 414</font></small></h1>
+                      <h1 class="page-header">บันทึกรายรับของหอพัก: <small><font color="#777777">บันทึกค่าใช้จ่าย ห้อง 414</font></small></h1>
 						
 						<!-- Menu Tab -->
 						<ul class="nav nav-tabs">
@@ -233,10 +239,10 @@
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
 								<div class="col-sm-1">
-								<button type="button" class="btn btn-danger btn-md pull-right">ยกเลิก</button>
+									<a href="Reportincome.php" class="btn btn-danger btn-md pull-right" role="button">ยกเลิก</a>
 								</div>
 								<div class="col-sm-1">
-								<button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button>
+									<a class="btn btn-primary btn-md pull-right" role="button">บันทึก</a>
 								</div>
 							</form>
 						</div>

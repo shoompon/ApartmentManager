@@ -76,11 +76,11 @@
                     <li>
                         <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="FindAvailableRoom.php"><i class="fa fa-fw fa-search"></i> ค้นหาห้องว่าง</a>
                     </li>
 					
-					<li class="active">
+					<li>
                         <a href="booking.php"><i class="fa fa-fw fa-calendar"></i> จองห้องพัก</a>
                     </li>
 					

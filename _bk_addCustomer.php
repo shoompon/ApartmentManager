@@ -88,10 +88,10 @@
                         <a href="checkin.php"><i class="fa fa-fw fa-plus-square"></i> ย้ายเข้า</a>
                     </li>
 					
-					<li class="active">
+					<li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#idCustomerManagement"><i class="fa fa-fw fa-pencil-square"></i> ระบบจัดการลูกค้า <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idCustomerManagement" class="collapse">
-                            <li>
+                            <li class="active">
                                 <a href="addCustomer.php"><i class="fa fa-fw fa-edit"></i>เพิ่มข้อมูลลูกค้า</a>
                             </li>
                             <li>
@@ -140,15 +140,10 @@
                 <!-- Page Heading -->
                 <div class="row">
                   <div class="col-lg-12">
-						<h1 class="page-header"> ระบบจัดการลูกค้า: <small> เพิ่มข้อมูลลูกค้า </small> </h1>
-						<h3> &nbsp; ข้อมูลลูกค้า </h3>
-						<div>
-						
-						
-						
-						
-						
-						
+                      <h1 class="page-header"> ระบบจัดการลูกค้า: <small> เพิ่มข้อมูลลูกค้า </small> </h1>
+                     <h3> &nbsp; ข้อมูลลูกค้า </h3>
+                     <div>
+					 
 					 
 					 
 					 

@@ -71,8 +71,9 @@
                 </li>
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+           <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
+                    <!-- <li class="active"> -->
                     <li>
                         <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
@@ -104,10 +105,10 @@
                         <a href="checkout.php"><i class="fa fa-fw fa-remove"></i> ย้ายออก</a>
                     </li>
 					
-					<li>
+					<li class="active">
                         <a href="javascript:;" data-toggle="collapse" data-target="#idPaymentManagement"><i class="fa fa-fw fa-eur"></i> จัดการการเงิน <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idPaymentManagement" class="collapse">
-                            <li class="active">
+                            <li>
 								<a href="ReportIncome.php"><i class="fa fa-fw fa-eur"></i> บันทึกรายรับของหอพัก</a>
 							</li>
 							<li>
@@ -115,7 +116,7 @@
 							</li>
 							<li>
 								<a href="PrepareBill.php"><i class="fa fa-fw fa-print"></i> เตรียมบิล</a>
-							</li>
+							</li>	
 						</ul>
                     </li>
 					                  
@@ -141,27 +142,82 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-lg-12ห">
-                      <h1 class="page-header">รายงานรายรับ<small><font color="#777777"></font></small></h1>
-                      <div>
-                      	<table height="600">
-                        
-                        
-                        </table>
-                      
-                      
-                      </div> 
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+							บันทึกรายรับของหอพัก: <small> ค้นหาห้องพัก</small>
+                        </h1>
+						
+						<!-- Menu Tab -->
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#">1.ค้นหาการเข้าพัก</a></li>
+							<li><a href="#" >2.บันทึกค่าใช้จ่าย</a></li>
+							<!-- <li><a href="#">3. แสดงรายละเอียดห้องพัก</a></li> -->
+							<!-- <li><a href="#">4. ยืนยันการย้ายเข้า</a></li> -->
+						</ul>
+						
+						<!--  -->
+                        <br></br>
+						<!--  -->
+						
+						<div class="form-inline">
+							<input type="text" class="form-control"></input>
+							<button type="button" class="btn btn-success">ค้นหา</button>
+						</div>
+						*ค้นหาจากหมายเลขใบจอง ชื่อ นามสกุล เบอร์โทร
+						
+						<br class="transparent">
+						
+						<div class="container">
+							<h2>รายละเอียดการอยู่อาศัย</h2>
+						</div>
+						*เลือกห้องที่ต้องการบันทึกค่าใช้จ่าย
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th class="col-md-1 text-center">ลำดับที่</th>
+									<th class="col-md-1">หมายเลขห้อง</th>
+									<th class="col-md-1">ประเภท</th>
+									<th class="col-md-1">วันที่เข้าพัก</th>
+									<!-- <th class="col-md-1">แก้ไข</th>  -->
+									<!-- <th class="col-md-1">จำนวนวัน</th> -->
+									<!-- <th class="col-md-1">เลือก</th> -->
+								</tr>
+							</thead>
+						<tbody>
+							<tr>
+								<td class="text-center">1</td>
+								<td>414</td>
+								<td>รายวัน</td>
+								<td>12 มี.ค. 2558</td>
+								<!-- <td>3 วัน</td> -->
+								<!-- <td><button class="form-control btn-md">เลือก</button></td> -->
+								<!-- <td><a href="checkout_02.php" class="btn btn-danger btn-md" role="button">ย้ายออก</a></td> -->
+							</tr>
+							<tr>
+								<td class="text-center">2</td>
+								<td>415</td>
+								<td>รายวัน</td>
+								<td>12 มี.ค. 2558</td>
+								<!-- <td>3 วัน</td> -->
+								<!-- <td><a href="checkout_02.php" class="btn btn-danger btn-md" role="button">ย้ายออก</a></td> -->
+							</tr>
+						</table>
+						
+						<br class="transparent">
+						<br class="transparent">
 						
 						
-
-						<!-- Display Table Room Available -->
-						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<button type="button" class="btn btn-primary btn-md ">ยกเลิก</button>
-								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์</button>
+								<!--
+								<td><a href="checkout.php" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
+								-->
+								<a href="Reportincome_02.php" class="btn btn-primary btn-md pull-right" role="button">ถัดไป</a>
 							</form>
 						</div>
+							
+
+						
 						
                     </div>
                 </div>
