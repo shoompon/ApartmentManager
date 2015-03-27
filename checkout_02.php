@@ -233,8 +233,8 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td class="text-center"></td>
-								<td>&nbsp;</td>
+								<td class="text-center"><button type="button" class="btn btn-primary btn-md pull-left">เพิ่มรายการ</button></td>
+								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -270,8 +270,10 @@
 						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="checkout.php" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
-								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์</button>
+								<td><a href="" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
+								<button type="button" class="btn btn-primary btn-md pull-right">ย้ายออก</button>
+								<button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button>
+								<button type="button" class="btn btn-primary btn-md pull-right" >พิมพ์ใบเสร็จ</button> 
 							</form>
 						</div>
 						

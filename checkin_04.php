@@ -347,7 +347,9 @@
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
 								<td><a href="checkin_03.php" class="btn btn-primary btn-md" role="button">ย้อนกลับ</a></td>
-								<button type="button" class="btn btn-primary btn-md pull-right">เสร็จสิ้น</button>
+								<button type="button" class="btn btn-primary btn-md pull-right">ยืนยัน</button>
+								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์สัญญา</button>
+								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบเสร็จ</button>
 							</form>
 						</div>
 						

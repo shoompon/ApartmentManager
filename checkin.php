@@ -171,7 +171,7 @@
 						<div class="container">
 							<h2>รายละเอียดการจอง</h2>
 						</div>
-						
+						*เลือกลูกค้าที่ต้องการย้ายเข้า
 						<table class="table table-hover">
 							<thead>
 								<tr>
@@ -182,7 +182,7 @@
 									<th class="col-md-1">ประเภท</th>
 									<th class="col-md-2">จองวันที่</th>
 									<th class="col-md-1">จำนวนวัน</th>
-									<th class="col-md-1">แก้ไข</th>
+									<!-- <th class="col-md-1">แก้ไข</th> -->
 								</tr>
 							</thead>
 						<tbody>
@@ -194,7 +194,7 @@
 								<td>รายวัน</td>
 								<td>12 มี.ค. 2558</td>
 								<td>3 วัน</td>
-								<td><a href="checkin_02.php" class="btn btn-primary btn" role="button">แก้ไข</a></td>
+								<!-- <td><a href="checkin_02.php" class="btn btn-primary btn" role="button">แก้ไข</a></td> -->
 							</tr>
 							<tr>
 								<td class="text-center">2</td>
@@ -204,7 +204,7 @@
 								<td>รายเดือน</td>
 								<td>12 มี.ค. 2558</td>
 								<td>1 วัน</td>
-								<td><a href="checkin_02.php" class="btn btn-primary btn" role="button">แก้ไข</a></td>
+								<!-- <td><a href="checkin_02.php" class="btn btn-primary btn" role="button">แก้ไข</a></td> -->
 							</tr>
 						</table>
 						
@@ -227,6 +227,15 @@
 						
                     </div>
                 </div>
+				
+				<div class="container-fluid">
+							<form class="form-horizontal" role="form">
+								<!--
+								<td><a href="checkout.php" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
+								-->
+								<button type="button" class="btn btn-primary btn-md pull-right">ถัดไป</button>
+							</form>
+						</div>
 
                 </div>
                 <!-- /.row -->

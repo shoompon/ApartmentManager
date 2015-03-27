@@ -176,16 +176,7 @@
 										<td align = "right">
 											<label> คำนำหน้า:&nbsp; </label>
 										</td>
-										<td>
-											<select name="คำนำหน้า" [multiple]>
-												<option value="นาย" [selected]> นาย </option>
-												<option value="นาง" > นาง </option>
-												<option value="นางสาว" > นางสาว </option>
-												<option value="อื่นๆ" > อื่นๆ </option>
-											</select>
-										
-										<td>
-										<!--  -->
+										<td>นาย<td>
 										</td>
 										
 									</tr>
@@ -195,12 +186,11 @@
 											<label for="name"> ชื่อ: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="name">
+											สมเกียรติ
 										<td align = "right">
 											<label>&nbsp; สกุล: &nbsp;</label>
 										</td>
-										<td>
-											<input type="text" name="surname" >
+										<td>ทองมี
 										</td>
 									</tr>
 									
@@ -209,7 +199,7 @@
 											<label>&nbsp; เลขที่บัตร: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="id" >
+											1234567890123
 										</td>
 									</tr>
 									
@@ -218,12 +208,12 @@
 											<label for="name"> เลขที่: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											119
 										 <td align = "right">
 											<label>&nbsp; หมู่ที่: &nbsp;</label>
 										 </td>
 										 <td>
-											<input type="text" name="" >
+											1
 										 </td>
 									</tr>
 									
@@ -232,12 +222,12 @@
 											<label for="name"> ซอย: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											อดุลยาราม
 										 <td align = "right">
 											<label>&nbsp; ถนน: &nbsp;</label>
 										 </td>
 										 <td>
-											<input type="text" name="" >
+											อดุลยาราม
 										 </td>
 									</tr>
 									
@@ -247,27 +237,26 @@
 											<label for="name"> ตำบล: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											ในเมือง
 										 <td align = "right">
 											<label>&nbsp; อำเภอ: &nbsp;</label>
 										 </td>
 										 <td>
-													<input type="text" name="" >
+											เมือง
 										 </td>
 									</tr>
 									
 									<tr>
 										<td align = "right">
-											
 											<label for="name"> จังหวัด: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="">
+											ขอนแก่น
 										 <td align = "right">
 											<label>รหัสปรษณีย์: &nbsp;</label>
 										 </td>
 										 <td>
-											<input type="text" name="" >
+											40000
 										 </td>
 									</tr>
 									
@@ -276,7 +265,7 @@
 											<label>&nbsp; โทร: &nbsp;</label>
 										</td>
 										<td>
-											<input type="text" name="id">                                            
+											0812345678                                        
 										</td>
 									</tr>
 									
@@ -288,15 +277,15 @@
 								<table>
 									<tr>
 										<td align="right"><label for="name"> ชื่อ-สกุล: &nbsp;</label></td>
-										<td><input type="text" name=""></td>
+										<td>นายสมชาย  ทองมี</td>
 									</tr>
 									<tr>
 										<td align="right"><label for="name"> เกี่ยวข้องเป็น: &nbsp;</label></td>
-										<td><input type="text" name=""></td>
+										<td>บิดา</td>
 									</tr>
 									<tr>
 										<td align="right"><label for="name"> โทร: &nbsp;</label></td>
-										<td><input type="text" name=""></td>
+										<td>0925678453</td>
 									</tr>
 								</table>
 							</div>
@@ -310,28 +299,27 @@
 								<table>
 									<tr>
 										<td align="right"><label>จำนวนห้องพักที่จอง:&nbsp</label></td>
-										<td><input type="text" name=""></td>
+										<td>1</td>
 									</tr>
 									
 									<tr>
 										<td align="right"><label>ประเภทห้อง:&nbsp</label></td>
-										<td><label><input type="radio" name="">ห้องแอร์</td>
-										<td><label><input type="radio" name="">ห้องพัดลม</td>
+										<td>ห้องแอร์</td>
 									</tr>
 									
 									<tr>
 										<td align="right"><label>วันที่เริมเข้าพัก:&nbsp</label></td>
-										<td><input type="text" name=""></td>
+										<td>27/03/2558</td>
 									</tr>
 									
 									<tr>
 										<td align="right"><label>วันที่ย้ายออก:&nbsp</label></td>
-										<td><input type="text" name=""></td>
+										<td>-</td>
 									</tr>
 									
 									<tr>
 										<td align="right"><label>จ่ายเงินค่ามัดจำแล้วเป็นจำนวน:&nbsp</label></td>
-										<td><input type="text" name=""> บาท</td>
+										<td>1,000 บาท</td>
 										
 									</tr>
 									
@@ -345,7 +333,9 @@
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
 								<td><a href="booking_02.php" class="btn btn-primary btn-md" role="button">ย้อนกลับ</a></td>
-								<button type="button" class="btn btn-primary btn-md pull-right">เสร็จสิ้น</button>
+								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบจอง</button>
+								<button type="button" class="btn btn-primary btn-md pull-right">ยืนยันการจอง</button>
+								
 							</form>
 						</div>
 						

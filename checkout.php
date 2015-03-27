@@ -152,7 +152,7 @@
 						<!-- Menu Tab -->
 						<ul class="nav nav-tabs">
 							<li class="active"><a href="#">1.ค้นหาการเข้าพัก</a></li>
-							<li><a href="#">2.สรุปค่าใช้จ่าย</a></li>
+							<li><a href="#" >2.สรุปค่าใช้จ่าย</a></li>
 							<!-- <li><a href="#">3. แสดงรายละเอียดห้องพัก</a></li> -->
 							<!-- <li><a href="#">4. ยืนยันการย้ายเข้า</a></li> -->
 						</ul>
@@ -165,14 +165,14 @@
 							<input type="text" class="form-control"></input>
 							<button type="button" class="btn btn-success">ค้นหา</button>
 						</div>
-						*ค้นหาจากชหมายเลขใบของ ชื่อ นามสกุล เบอร์โทร
+						*ค้นหาจากหมายเลขใบจอง ชื่อ นามสกุล เบอร์โทร
 						
 						<br class="transparent">
 						
 						<div class="container">
 							<h2>รายละเอียดการอยู่อาศัย</h2>
 						</div>
-						
+						*เลือกห้องที่ต้องการย้ายออก
 						<table class="table table-hover">
 							<thead>
 								<tr>
@@ -180,7 +180,7 @@
 									<th class="col-md-1">หมายเลขห้อง</th>
 									<th class="col-md-1">ประเภท</th>
 									<th class="col-md-1">วันที่เข้าพัก</th>
-									<th class="col-md-1">แก้ไข</th>
+									<!-- <th class="col-md-1">แก้ไข</th>  -->
 									<!-- <th class="col-md-1">จำนวนวัน</th> -->
 									<!-- <th class="col-md-1">เลือก</th> -->
 								</tr>
@@ -193,7 +193,7 @@
 								<td>12 มี.ค. 2558</td>
 								<!-- <td>3 วัน</td> -->
 								<!-- <td><button class="form-control btn-md">เลือก</button></td> -->
-								<td><a href="checkout_02.php" class="btn btn-danger btn-md" role="button">ย้ายออก</a></td>
+								<!-- <td><a href="checkout_02.php" class="btn btn-danger btn-md" role="button">ย้ายออก</a></td> -->
 							</tr>
 							<tr>
 								<td class="text-center">2</td>
@@ -201,7 +201,7 @@
 								<td>รายวัน</td>
 								<td>12 มี.ค. 2558</td>
 								<!-- <td>3 วัน</td> -->
-								<td><a href="checkout_02.php" class="btn btn-danger btn-md" role="button">ย้ายออก</a></td>
+								<!-- <td><a href="checkout_02.php" class="btn btn-danger btn-md" role="button">ย้ายออก</a></td> -->
 							</tr>
 						</table>
 						
@@ -209,9 +209,15 @@
 						<br class="transparent">
 						
 						
-						
-						
-					
+						<div class="container-fluid">
+							<form class="form-horizontal" role="form">
+								<!--
+								<td><a href="checkout.php" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
+								-->
+								<button type="button" class="btn btn-primary btn-md pull-right">ถัดไป</button>
+							</form>
+						</div>
+							
 
 						
 						

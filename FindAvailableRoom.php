@@ -76,11 +76,11 @@
                     <li>
                         <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="FindAvailableRoom.php"><i class="fa fa-fw fa-search"></i> ค้นหาห้องว่าง</a>
                     </li>
 					
-					<li>
+					<li class="active">
                         <a href="booking.php"><i class="fa fa-fw fa-calendar"></i> จองห้องพัก</a>
                     </li>
 					
@@ -149,36 +149,86 @@
                         <h1 class="page-header">
 							ค้นหาห้องว่าง
                         </h1>
-						<!-- Table Start -->
-							<div class="container">
+						
+                        <div>
+							<table>
+								<tr>
+									<td><label>วันที่เข้า: &nbsp;</label></td>
+									<td><input type=text class=form-control></td>
+								</tr>
+								<tr>
+									<td><label>วันที่ออก: &nbsp;</label></td>
+									<td><input type=text class=form-control></td>
+								</tr>
+								<tr>
+									<!-- <td align = "right"> -->
+									<td>
+										<label for="BookingCodeInput">ประเภทห้อง: &nbsp;</label>
+									</td>
+									<td>
+										<div class="dropdown">
+											<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-expanded="true">เลือกประเภทห้อง
+												<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+												<li role="presentation"><a role="menuitem" tabindex="-1" href="#">ห้องแอร์</a></li>
+												<li role="presentation"><a role="menuitem" tabindex="-1" href="#">ห้องพัดลม</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><label>จำนวนห้องที่ต้องการ: &nbsp;</label></td>
+									<td><input type=text class=form-control></td>
+								</tr>
+                            </table>
+                        </div>
+						
+						<!-- Display Table Room Available -->
+						<!-- ----------------------------------------------------- -->
+						<div class="container">
 							<h2>รายละเอียดห้องว่าง</h2>
-								<table class="table">
+								<table class="table table-hover">
 									<thead>
 										<tr>
-											<th>ลำดับที่</th>
+											<th class="text-center">เลือก</th>
+											<th class="text-center">ลำดับที่</th>
 											<th>หมายเลขห้อง</th>
 										</tr>
 									</thead>
 								<tbody>
 									<tr>
-										<td>1</td>
+										<td class="col-md-1 text-center" > <input type="checkbox" name="multiplecheckboxesinline-0" id="multiplecheckboxesinline-0-0" value="1"></td>
+										<td class="col-md-1 text-center">1</td>
 										<td>411</td>
 									</tr>
 									<tr>
-										<td>2</td>
+										<td class="col-md-1 text-center" > <input type="checkbox" name="multiplecheckboxesinline-0" id="multiplecheckboxesinline-0-0" value="1"></td>
+										<td class="col-md-1 text-center" >2</td>
 										<td>412</td>
 									</tr>
 									<tr>
-										<td>3</td>
+										<td class="col-md-1 text-center" > <input type="checkbox" name="multiplecheckboxesinline-0" id="multiplecheckboxesinline-0-0" value="1"></td>
+										<td class="col-md-1 text-center">3</td>
 										<td>413</td>
 									</tr>
 								</tbody>
 							</table>
-							<!-- Table EDN -->
+						</div>
 						
+						
+
+						<!-- Display Table Room Available -->
+						<!-- ----------------------------------------------------- -->
+						<div class="container-fluid">
+							<form class="form-horizontal" role="form">
+								<td><a href="booking_02.php" class="btn btn-primary btn-md pull-right" role="button">ถัดไป</a></td>
+							</form>
+						</div>
 						
                     </div>
-                </div>
+                
 
                 </div>
                 <!-- /.row -->

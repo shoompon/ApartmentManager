@@ -163,7 +163,16 @@
                         <div>
 							<table>
 								<tr>
-									<td align = "right">
+									<td><label>วันที่เข้า: &nbsp;</label></td>
+									<td><input type=text class=form-control></td>
+								</tr>
+								<tr>
+									<td><label>วันที่ออก: &nbsp;</label></td>
+									<td><input type=text class=form-control></td>
+								</tr>
+								<tr>
+									<!-- <td align = "right"> -->
+									<td>
 										<label for="BookingCodeInput">ประเภทห้อง: &nbsp;</label>
 									</td>
 									<td>
@@ -179,6 +188,10 @@
 										</div>
 									</td>
 								</tr>
+								<tr>
+									<td><label>จำนวนห้องที่ต้องการ: &nbsp;</label></td>
+									<td><input type=text class=form-control></td>
+								</tr>
                             </table>
                         </div>
 						
@@ -189,25 +202,25 @@
 								<table class="table table-hover">
 									<thead>
 										<tr>
-											<th class="text-center">ลำดับที่</th>
 											<th class="text-center">เลือก</th>
+											<th class="text-center">ลำดับที่</th>
 											<th>หมายเลขห้อง</th>
 										</tr>
 									</thead>
 								<tbody>
 									<tr>
-										<td class="col-md-1 text-center">1</td>
 										<td class="col-md-1 text-center" > <input type="checkbox" name="multiplecheckboxesinline-0" id="multiplecheckboxesinline-0-0" value="1"></td>
+										<td class="col-md-1 text-center">1</td>
 										<td>411</td>
 									</tr>
 									<tr>
-										<td class="col-md-1 text-center" >2</td>
 										<td class="col-md-1 text-center" > <input type="checkbox" name="multiplecheckboxesinline-0" id="multiplecheckboxesinline-0-0" value="1"></td>
+										<td class="col-md-1 text-center" >2</td>
 										<td>412</td>
 									</tr>
 									<tr>
-										<td class="col-md-1 text-center">3</td>
 										<td class="col-md-1 text-center" > <input type="checkbox" name="multiplecheckboxesinline-0" id="multiplecheckboxesinline-0-0" value="1"></td>
+										<td class="col-md-1 text-center">3</td>
 										<td>413</td>
 									</tr>
 								</tbody>
