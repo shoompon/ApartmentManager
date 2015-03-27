@@ -214,7 +214,7 @@
 								<!--
 								<td><a href="checkout.php" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
 								-->
-								<a href="income_02.php" class="btn btn-primary btn-md pull-right" role="button">ถัดไป</a>
+								<button type="button" class="btn btn-primary btn-md pull-right">ถัดไป</button>
 							</form>
 						</div>
 							

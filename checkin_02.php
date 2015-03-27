@@ -298,7 +298,7 @@
 						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="checkin.php" class="btn btn-primary btn-md" role="button">ย้อนกลับ</a></td>
+								<td><a href="checkin.php" class="btn btn-danger btn-md" role="button">ย้อนกลับ</a></td>
 								<td><a href="checkin_03.php" class="btn btn-primary btn-md pull-right" role="button">ถัดไป</a></td>								
 							</form>
 						</div>

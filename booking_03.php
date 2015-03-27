@@ -329,7 +329,7 @@
 						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="booking_02.php" class="btn btn-primary btn-md" role="button">ย้อนกลับ</a></td>
+								<td><a href="booking_02.php" class="btn btn-danger btn-md" role="button">ย้อนกลับ</a></td>
 								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบจอง</button>
 								<button type="button" class="btn btn-primary btn-md pull-right">ยืนยันการจอง</button>
 								

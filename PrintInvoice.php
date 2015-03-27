@@ -158,7 +158,7 @@
 						<!-- ----------------------------------------------------- -->
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<button type="button" class="btn btn-primary btn-md ">ยกเลิก</button>
+								<button type="button" class="btn btn-danger btn-md ">ยกเลิก</button>
 								<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์</button>
 							</form>
 						</div>

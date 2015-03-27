@@ -161,11 +161,11 @@
 							<table>
 								<tr>
 									<td><label>วันที่เข้า: &nbsp;</label></td>
-									<td><input type=text class=form-control></td>
+									<td><input type="date" class="form-control" id="DateCheckIn" placeholder="DD/MM/YYYY"></td>
 								</tr>
 								<tr>
 									<td><label>วันที่ออก: &nbsp;</label></td>
-									<td><input type=text class=form-control></td>
+									<td><input type="date" class="form-control" id="DateCheckIn" placeholder="DD/MM/YYYY"></td>
 								</tr>
 								<tr>
 									<!-- <td align = "right"> -->

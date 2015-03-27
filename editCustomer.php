@@ -226,7 +226,7 @@
 			 <!-- ----------------------------------------------------- -->
 			 <div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="FindCustomer.php" class="btn btn-primary btn" role="button">ย้อนกลับ</a></td>
+								<td><a href="FindCustomer.php" class="btn btn-danger btn" role="button">ย้อนกลับ</a></td>
                                 <button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button> 
 								<button type="button" class="btn btn-primary  btn-md pull-right">ลบ</button>
 							</form>

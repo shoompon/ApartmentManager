@@ -144,8 +144,17 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">
 							<!-- ย้ายออก: <small> ค้นหาการเข้าพัก</small> -->รายงานรายรับ </h1>
-						
-						
+						<table>
+								<tr>
+									<td><label>ต้้งแต่วันที่: &nbsp;</label></td>
+									<td><input type="date" class="form-control" id="DateCheckIn" placeholder="DD/MM/YYYY"></td>
+								
+									<td><label> &nbsp;  &nbsp; ถึงวันที่: &nbsp;</label></td>
+									<td><input type="date" class="form-control" id="DateCheckIn" placeholder="DD/MM/YYYY"></td>
+									<td>&nbsp;</td>
+									<td> <button type="button" class="btn btn-success btn-md pull-right">ค้นหา</button></td>
+								</tr>
+						</table>
 						<table class="table table-hover">
 							<thead>
 								<tr>

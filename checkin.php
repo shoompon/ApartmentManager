@@ -227,10 +227,7 @@
 				
 				<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<!--
-								<td><a href="checkout.php" class="btn btn-primary btn-md" role="button">ก่อนหน้า</a></td>
-								-->
-								<button type="button" class="btn btn-primary btn-md pull-right">ถัดไป</button>
+								<td><a href="checkin_02.php" class="btn btn-primary btn-md pull-right" role="button">ถัดไป</a></td>
 							</form>
 						</div>
 
