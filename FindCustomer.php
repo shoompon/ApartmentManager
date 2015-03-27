@@ -150,7 +150,7 @@
 									<td>
 										<div class="form-inline">
 												<input type="password" class="form-control" id="pwd" placeholder="ใส่ชื่อลูกค้า">
-												<button type="button-inline" class="btn btn-primary btn-md">ค้นหา</button>
+												<button type="button-inline" class="btn btn-success btn-md">ค้นหา</button>
 										</div>
 									</td>
 								</tr>

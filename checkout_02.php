@@ -262,12 +262,24 @@
 
 						<!-- Display Table Room Available -->
 						<!-- ----------------------------------------------------- -->
+						
 						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="checkout.php" class="btn btn-danger btn-md" role="button">ก่อนหน้า</a></td>
-								<button type="button" class="btn btn-primary btn-md pull-right">ย้ายออก</button>
-								<button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button>
-								<button type="button" class="btn btn-primary btn-md pull-right" >พิมพ์ใบเสร็จ</button> 
+								<div> 
+									<a href="checkout.php" class="btn btn-danger btn-md col-sm-1">ก่อนหน้า</a>
+								</div> 
+								
+								<div class= "col-sm-1 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">ย้ายออก</button>
+								</div> 
+								
+								<div class= "col-sm-1 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button>
+								</div> 
+								
+								<div class= "col-sm-1 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบเสร็จ</button>
+								</div> 
 							</form>
 						</div>
 						

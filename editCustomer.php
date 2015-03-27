@@ -219,18 +219,24 @@
   </tr>
   <tr> &nbsp; </tr>
                      </table>
-<div> <!-- Display Table Room Available -->
-			 <!-- ----------------------------------------------------- -->
-			 <div class="container-fluid">
+<div>
+				
+						<div class="container-fluid">
 							<form class="form-horizontal" role="form">
-								<td><a href="FindCustomer.php" class="btn btn-danger btn" role="button">ย้อนกลับ</a></td>
-                                <button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button> 
-								<button type="button" class="btn btn-primary  btn-md pull-right">ลบ</button>
+								<div> 
+									<a href="FindCustomer.php" class="btn btn-danger btn-md col-sm-1">ย้อนกลับ</a>
+								</div> 
+								
+								<div class= "col-sm-2 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">บันทึก</button>
+								</div> 
+								
+								<div class= "col-sm-1 pull-right"> 
+									<button type="button" class="btn btn-primary btn-md pull-right">ลบ</button>
+								</div> 
+								
 							</form>
 						</div>
-						
-                    </div>
-                </div>
 
                 </div>
                 <!-- /.row -->

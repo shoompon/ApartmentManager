@@ -159,7 +159,7 @@
 						<!-- <label>ค้นหาลูกค้าจาก หมายเลขการจอง: &nbsp;</label> -->
 						<div class="form-inline">
 							<input type="text" class="form-control"></input>
-							<button type="button" class="form-control">ค้นหา</button>
+							<button type="button" class="form-control btn-success">ค้นหา</button>
 						</div>
 							*ค้นหาจากหมายเลขใบจอง ชื่อ นามสกุล เบอร์โทร <br class="transparent">
 						<div class="container">

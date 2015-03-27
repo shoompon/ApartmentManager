@@ -157,9 +157,9 @@
 						<!--  -->
 						
 						<!-- <label>ค้นหาลูกค้าจาก หมายเลขการจอง: &nbsp;</label> -->
-						<div class="col-lg-2">
-							<!-- <label>ค้นหาห้องว่าง: </label> -->
-							<button type="button" class="btn btn-success">ค้นหาห้องว่าง</button>
+						<div class="form-inline">
+							<input type="text" class="form-control"></input>
+							<button type="button" class="form-control btn-success">ค้นหาห้องว่าง</button>
 						</div>
 						
 						<!-- <br class="transparent"> -->
