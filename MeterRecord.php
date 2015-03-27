@@ -98,11 +98,8 @@
                         <a href="bootstrap-grid.html"><i class="fa fa-fw fa-eur"></i> บันทึกรายจ่ายของหอพัก</a>
                     </li>
 					<li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-print"></i> พิมพ์ใบแจ้งหนี้รายเดือน</a>
-                    </li>
-					<li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-print"></i> พิมพ์ใบเสร็จรายเดือน</a>
-                    </li>
+								<a href="PrepareBill.php"><i class="fa fa-fw fa-print"></i> เตรียมบิล</a>
+					</li>	
 					<li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#idPrintSummaryReport"><i class="fa fa-fw fa-print"></i> ออกรายงานสรุป <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idPrintSummaryReport" class="collapse">

@@ -114,10 +114,7 @@
 								<a href="ReportOwner.php"><i class="fa fa-fw fa-eur"></i> บันทึกรายจ่ายของหอพัก</a>
 							</li>
 							<li>
-								<a href="PrintInvoice.php"><i class="fa fa-fw fa-print"></i> พิมพ์ใบแจ้งหนี้รายเดือน</a>
-							</li>	
-							<li>
-								<a href="PrintReciept.php"><i class="fa fa-fw fa-print"></i> พิมพ์ใบเสร็จรายเดือน</a>
+								<a href="PrepareBill.php"><i class="fa fa-fw fa-print"></i> เตรียมบิล</a>
 							</li>
 						</ul>
                     </li>
@@ -151,22 +148,23 @@
                         </h1>
 						
                         <div>
-							<table>
-								<tr>
-									<td><label>วันที่เข้า: &nbsp;</label></td>
-									<td><input type=text class=form-control></td>
-								</tr>
-								<tr>
-									<td><label>วันที่ออก: &nbsp;</label></td>
-									<td><input type=text class=form-control></td>
-								</tr>
-								<tr>
-									<!-- <td align = "right"> -->
-									<td>
-										<label for="BookingCodeInput">ประเภทห้อง: &nbsp;</label>
-									</td>
-									<td>
-										<div class="dropdown">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="DateCheckIn" class="col-sm-2 control-label">วันที่เข้า : </label>
+										<div class="col-sm-3">
+											<input type="date" class="form-control" id="DateCheckIn" placeholder="DD/MM/YYYY">
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="DateCheckOut" class="col-sm-2 control-label">วันที่ออก : </label>
+										<div class="col-sm-3">
+											<input type="date" class="form-control" id="DateCheckOut" placeholder="DD/MM/YYYY">
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="RoomType" class="col-sm-2 control-label">ประเภทห้อง : </label>
+										<div class="col-sm-2">
+											<div class="dropdown">	
 											<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
 												data-toggle="dropdown" aria-expanded="true">เลือกประเภทห้อง
 												<span class="caret"></span>
@@ -175,14 +173,22 @@
 												<li role="presentation"><a role="menuitem" tabindex="-1" href="#">ห้องแอร์</a></li>
 												<li role="presentation"><a role="menuitem" tabindex="-1" href="#">ห้องพัดลม</a></li>
 											</ul>
+											</div>
 										</div>
-									</td>
-								</tr>
-								<tr>
-									<td><label>จำนวนห้องที่ต้องการ: &nbsp;</label></td>
-									<td><input type=text class=form-control></td>
-								</tr>
-                            </table>
+								</div>
+								<div class="form-group">
+									<label for="RoomNum" class="col-sm-2 control-label">จำนวนห้องที่ต้องการ : </label>
+										<div class="col-sm-2">
+											<input type="text" class="form-control" id="RoomNum" placeholder="">
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="SearchButton" class="col-sm-2 control-label">  </label>
+									<div class="col-sm-2">
+										<button type="button" class="btn btn-primary">ค้นหาห้อง</button>
+									</div>
+								</div>
+                            </form>
                         </div>
 						
 						<!-- Display Table Room Available -->

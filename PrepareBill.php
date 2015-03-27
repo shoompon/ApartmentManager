@@ -142,7 +142,7 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12ห">
-                      <h1 class="page-header">พิมพ์ใบเสร็จ<small><font color="#777777"></font></small></h1>
+                      <h1 class="page-header">เตรียมบิล <small><font color="#777777"></font></small></h1>
                       <div>
                       	<table height="600">
                         

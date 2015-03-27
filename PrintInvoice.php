@@ -114,11 +114,8 @@
 								<a href="ReportOwner.php"><i class="fa fa-fw fa-eur"></i> บันทึกรายจ่ายของหอพัก</a>
 							</li>
 							<li>
-								<a href="PrintInvoice.php"><i class="fa fa-fw fa-print"></i> พิมพ์ใบแจ้งหนี้รายเดือน</a>
+								<a href="PrepareBill.php"><i class="fa fa-fw fa-print"></i> เตรียมบิล</a>
 							</li>	
-							<li class="active">
-								<a href="PrintReciept.php"><i class="fa fa-fw fa-print"></i> พิมพ์ใบเสร็จรายเดือน</a>
-							</li>
 						</ul>
                     </li>
 					                  
