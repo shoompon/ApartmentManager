@@ -341,11 +341,11 @@
 								</div> 
 								
 								<div class= "col-sm-2 pull-right"> 
-									<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์ใบจอง</button>
+									<button type="button" class="btn btn-primary btn-md pull-right">พิมพ์สัญญา</button>
 								</div> 
 								
 								<div class= "col-sm-1 pull-right"> 
-									<button type="button" class="btn btn-primary btn-md pull-right">ยืนยันการจอง</button>
+									<button type="button" class="btn btn-primary btn-md pull-right">ยืนยันการเข้าพัก</button>
 								</div> 
 								
 							</form>
